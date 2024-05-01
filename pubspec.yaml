@@ -1,11 +1,11 @@
 name: yoruba_tts
 description: "Flutter package to generate speech from text using the Meta's mms-tts-yor model on HuggingFace API"
 version: 0.0.1
-homepage:
+homepage: https://github.com/haybankz/yoruba_tts/blob/main/README.md
+repository: https://github.com/haybankz/yoruba_tts
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
-  flutter: ">=1.17.0"
 
 dependencies:
   dio: ^5.4.3+1
