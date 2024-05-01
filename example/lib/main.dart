@@ -73,9 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final path = "${appDocumentsDir?.path ?? ""}/example.flac";
 
     await YorubaTts.generate(
-        accessToken: "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",
-        text: 'Ẹ̀yà Yorùbá ni mo ti wá',
-        filePath: path);
+        accessToken: "", text: 'Ẹ̀yà Yorùbá ni mo ti wá', filePath: path);
     AudioPlayer player = AudioPlayer();
     await player.setFilePath(path);
     await player.play();
